@@ -1,0 +1,111 @@
+
+input{
+display: block;
+box-sizing: border-box;
+}
+
+
+
+
+#register{
+width:400px;
+opacity:0.8;
+
+padding-left:20px;
+margin-bottom:100px;
+background-color:#45ADA8;
+float:left;
+border-left-style: solid;
+border-width: 1px;
+display:inline-block;
+border-color:white;
+margin-top:15px;
+}
+
+#login{
+width:400px;
+opacity:0.8;
+
+padding-left:20px;
+background-color:#45ADA8;
+float:right;
+border-left-style: solid;
+border-width: 1px;
+display:inline-block;
+border-color:white;
+margin-top:15px;
+}
+input {
+width: 300px;
+border: 0;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+padding: 7px;
+background: #FBFBFB;
+outline: 0;
+border-radius: 5px;
+display: block;
+box-sizing: border-box;
+margin-top:10px;
+}
+select{
+margin-top:10px;
+}
+form{
+font-size:16px;
+font-weight:100;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+font-variant: normal;
+font-weight: 300;
+margin:10px;
+color:black;
+}
+#bmrbtn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  outline:none;
+  text-transform:uppercase;
+  transition: all 1s ease;
+  margin: 10px;
+
+}
+
+#bmrbtn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+h1{
+font-size: 30px;
+/* font-family: 'Lato'; */
+color: black;
+font-weight: 100;
+padding: 10px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+
+
+h3{
+  font-size: 20px;
+/* font-family: 'Lato'; */
+color: black;
+font-weight: 100;
+padding: 10px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+margin-top:5px;
+
+}

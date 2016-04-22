@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- sets viewport to device width -->
+	<title>Fit and Free</title>
+
+	<link rel ="stylesheet" href="css/reset.css" type="text/css"/> 
+	<link rel ="stylesheet" href="css/style.css" type="text/css"/> 
+	<link href="lightbox/css/lightbox.css" rel="stylesheet" /> <!--Lightbox plugin for images [CSS] -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:600italic,300italic,400,300|Poiret+One' rel='stylesheet' type='text/css'> <!--Google fonts OpenSans -->
+	<link rel="stylesheet" href="css/bmistyle.css" type="text/css"/>
+	
+
+	<script type="text/javascript" src="js/modernizr.js"></script> <!--Feature detection -->
+	<script type="text/javascript" src="js/respond.min.js"></script> <!--Responsive design support browsers without CSS Media Queries support -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script> <!--JQUERY libraries -->
+	<script type="text/javascript" src="lightbox/js/lightbox.js"></script> <!--Lightbox plugin [JS]-->
+	<script type="text/javascript" src="js/prefixfree.min.js"></script> <!--Script to eliminate need for browser specific prefixes-->
+	<script type="text/javascript" src="js/unslider.js"></script> <!--Slider javascript for header-->
+	<script type="text/javascript">
+		$(function() {
+    $('.banner').unslider();
+});
+</script>
+	<script type="text/javascript" src="js/bmicalc.js"/></script>
+
+
+</head>
+
+<body>
+
+	<header>
+		<h1><a href="index.html">fit&amp;<span>FREE</span></a></h1>
+		<p>Free your life.</p>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tools.html"><strong>Tools</strong></a>
+					<ul>
+						<li><a href="tools.html#tools_info">Info</a>
+							<ul>
+								<li><a href="bmicalc.html">BMI Calculator</a></li>
+								<li><a href="bmrcalc.html">Caloric needs</a></li>
+
+							</ul>
+						</li>
+						<li><a href="tools.html#tools_diet">Diet</a>
+							<ul>
+								<li><a href="foodjournaldeveloping.html">Food Journal</a></li>
+								<li><a href="recipebookdeveloping.html">Recipe Book</a></li>
+								<li><a href="caloriecounterdeveloping.html">Calorie Counter</a></li>
+							</ul>
+						<li><a href="tools.html#tools_exercise">Exercise</a>
+							<ul>
+								<li><a href="exerciseplannerdeveloping.html">Exercise Planner</a></li>
+								<li><a href="caloricexpendituredeveloping.html">Caloric Expenditure</a></li>
+							</ul>
+						</li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="news.html">News/Media</a>
+					<ul>
+						<li><a href="news.html">Articles</a>
+						</li>
+						<li><a href="media.html">Media</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="info.html">Info</a>
+					<ul>
+						<li><a href="info.html">About Us</a>
+							<ul>
+								<li><a href="info.html#info_vision">Our Vision</a></li>
+								<li><a href="info.html#info_privacy">Privacy</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="help.html">Help/FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="signuplogin.html"><span>Sign up/Log In</span></a></li>
+				
+			</ul>
+		</nav>
+	</header>
+
+		<section id="space">
+		
+	</section>
+		
+		
+
+	<div class="pagetitle">
+		<h1>BMI Calculator</h1>
+	</div>
+
+	<section id="infoarticles">
+		<div class="bmiCalc">
+		<h1 id="title">Please enter your height and weight.</h1>
+			<p>
+				<form name="textboxForm" action="window.html">
+					Height (cm): <input type="text" name="height"><br>
+					Weight (kg): <input type="text" name="weight"><br>
+					<button id="bmibtn" type="button" value="Calculate BMI" name="buttonSubmit" onClick="calculateBMI(height, weight)">Calculate</button>
+					<button id="bmibtn" type="button" value="Reset" name="buttonReset" onClick="resetBmi(height, weight)">Reset</button>
+				</form>
+			</p>
+			<h3 id="h2ID1">Your BMI is </h2>
+			<h3 id="h2ID2">Category: </h2>
+		</div>
+	</section>	
+
+	<section id="infoarticles">
+		<article>
+			<h2>What is a BMI?</h2>
+			<p> A BMI or a 'Body Mass Index' is a number that is calculated based on an individual's mass and height. As somebody gets taller, they will naturally weigh more, thus weight alone is not a sufficient measure for an individual's health status. However, it must be noted that an individual's BMI should only be used as a rough guide, as other factors such as body fat percentages, muscle mass can cause an individual to be misplaced.<br><br>
+				Here are some rough guidelines as suggested by the <a href="www.who.int">World Health Organisation</a> regarding BMI categories.
+				<ul>
+					<li>Less than 18.5 - Underweight</li>
+					<li>Between 18.5 and 25 - Normal</li>
+					<li>Between 25 and 30 - Overweight</li>
+					<li>Greater than 30 - Obese</li>
+				</ul>
+
+			</p>
+		</article>
+	</section>
+
+	
+		
+		
+
+	
+
+
+
+
+<footer>
+	<h2 class="hidden">Our footer</h2>
+	<section id="copyright">
+
+		<div class="wrapper">
+			<div class="social">
+				<a href="https://www.facebook.com/pages/FitFree/1541721132729648"><img src="img/ICONS/facebook.png" alt="facebook" width="30"/></a>
+				<a href="mailto:fitfree9@gmail.com"><img src="img/ICONS/Gmail.png" alt="gmail" width="30"/></a>
+				<a href="javascript:void(0)"><img src="img/ICONS/YouTube.png" alt="youtube" width="30"/></a>
+				<a href="https://twitter.com/fitfree1"><img src="img/ICONS/twitter.png" alt="twitter" width="30"/></a>
+			</div>
+				&copy; Copyright 2014 by <a href="">Fit&amp;Free</a>. All Rights Reserved. <div id="footlinks"><span><a href="sitemap.html">SITEMAP</a></span>|<span><a href="contact.html">Contact us</a></span>|<span><a href="info.html#info_privacy">Privacy</a></span></div>
+		</div>
+	</section>
+	</footer>
+
+
+</body>
+</html>

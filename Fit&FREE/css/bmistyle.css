@@ -1,0 +1,74 @@
+
+
+.bmiCalc{
+	background-color:#45ADA8;
+  opacity:0.8;
+	width:400px;
+	margin:0 auto;
+	margin-bottom:-100px;
+	padding:10px;
+}
+#title{
+font-size:30px;
+/*font-family: 'Lato';*/
+color:black;
+font-weight:100;
+padding:10px;
+font-family:'Open Sans Condensed', sans-serif;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+h3{
+font-size:20px;
+font-weight:100;
+font-family: 'Open Sans';
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+margin:10px;
+color:black;
+padding-bottom:10px;
+padding-top:10px;
+}
+form{
+font-size:16px;
+font-weight:100;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+font-variant: normal;
+font-weight: 300;
+margin:10px;
+color:black;
+}
+form input{
+	margin-top:10px;
+}
+
+
+#bmibtn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  outline:none;
+  text-transform:uppercase;
+  transition: all 1s ease;
+
+}
+
+#bmibtn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+input{
+display: block;
+box-sizing: border-box;
+}
