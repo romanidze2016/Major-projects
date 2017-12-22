@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717390567506",
+    "firebase_url": "https://cookaloud-8c8aa.firebaseio.com",
+    "project_id": "cookaloud-8c8aa",
+    "storage_bucket": "cookaloud-8c8aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717390567506:android:ab6a97943b617b37",
+        "android_client_info": {
+          "package_name": "comp5216.sydney.edu.au.cookaloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717390567506-ioek8a0ir13lrq77tqftf6i2hcoloi1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comp5216.sydney.edu.au.cookaloud",
+            "certificate_hash": "a68b55839c90163d237dd7ec9e7b32dc38b314e4"
+          }
+        },
+        {
+          "client_id": "717390567506-sco0mhnelvnp47s8ctt9iu1rqr5gcdrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvwzICucE2c0n_bPRbNUN6nd6g23MRqZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717390567506-sco0mhnelvnp47s8ctt9iu1rqr5gcdrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

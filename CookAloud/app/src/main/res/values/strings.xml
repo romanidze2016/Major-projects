@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CookAloud</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="title_activity_step">StepActivity</string>
+    <string name="name">name</string>
+    <string name="duration">duration</string>
+    <string name="image">image</string>
+    <string name="steps">steps</string>
+    <string name="ingredients">ingredients</string>
+    <string name="Recipes">Recipes</string>
+</resources>
