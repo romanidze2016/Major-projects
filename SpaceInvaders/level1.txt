@@ -1,0 +1,15 @@
+[LEVEL]
+intermidiate
+
+[SHIP]
+size=Large
+name=Bobbetta
+x=200
+instructions=
+frames=60
+
+[SWARM]
+position=100 100, 300 300
+type=
+move=L,U,L,D,L,R,R,R,R,R,R,R,R,R,R,R,R,L,R,L,R,L,L,R,R,R,L,L,R,R,R,R,R,L,L,R,R,L,L,L
+shoot=2
