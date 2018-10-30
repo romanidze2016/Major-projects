@@ -1,1 +1,0 @@
-Launch Snake.exe to start playing the game
