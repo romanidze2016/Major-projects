@@ -9,4 +9,4 @@ This project significantly contributed to my skills as a team member and also al
 
 ## Installation
 
-Simply clone the project folder to your computer and open index.html in the browser of your choice.
+Simply clone the project folder to your computer and open index.html in a browser of your choice.
