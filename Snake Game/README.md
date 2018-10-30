@@ -1,7 +1,5 @@
 # Snake
 
-## Description
-
 This was my first major programming project which I had in college. It was a simple snake game that I built from scratch using Visual Basic Studio. The development of the game involved the use of my problem-solving skills as well as creative thinking.
 
 ## Installation
@@ -14,4 +12,4 @@ Make sure they are located in the same directory and then run the exe file
 
 ## System requirements 
 
-The game can only be run on Windows
+OS: Windows
