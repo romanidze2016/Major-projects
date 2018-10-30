@@ -6,6 +6,12 @@ This was my first major programming project which I had in college. It was a sim
 
 ## Installation
 
-In order to run the game simply download the two files from this project's folder: Snake.exe and Record.txt
+In order to run the game simply download the two files from this project's folder
 
 [Snake.exe](https://github.com/romanidze2016/Major-projects/blob/master/Snake%20Game/Snake.exe) and [Record.txt](https://github.com/romanidze2016/Major-projects/blob/master/Snake%20Game/Record.txt)
+
+Make sure they are located in the same directory and then run the exe file
+
+## System requirements 
+
+The game can only be run on Windows
