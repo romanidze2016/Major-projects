@@ -2,7 +2,7 @@
 
 ### Description ###
 
-TableTop is a web application the main purpose of which is to make it easier to play board role-playing games (e.g. Dungeons & Dragons) over large distances. The application serves as a table top which can be accessed online and which players can interact with in different ways. I worked on this project in a team of four people. On the front-end we used HTML and CSS, on the backend we utilized Spring framework with Hibernate and all the application’s data was stored in MySQL database. Although I contributed on various sides of the project, my primary responsibility was the front-end development of the web application.
+TableTop is a web application the main purpose of which is to make it easier to play board role-playing games (e.g. Dungeons & Dragons) over large distances. The application serves as a table top which can be accessed online and which players can interact with in different ways. I worked on this project in a team of four people. On the front-end we used HTML and CSS, on the backend we utilized Spring framework with Hibernate and all the application’s data was stored in MySQL database. Although I contributed on various sides of the project, my primary responsibility was the back-end development of the web application.
 
 ### Installation ###
 
